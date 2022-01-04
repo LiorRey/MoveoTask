@@ -5,7 +5,7 @@ export class MapComponent extends Component {
   render() {
     const style = {
       width: "100%",
-      height: "50%",
+      height: "35%",
     };
     return (
       <div className="map-area" style={{ height: "0%" }}>
