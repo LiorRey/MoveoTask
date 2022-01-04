@@ -35,5 +35,5 @@ export class MapComponent extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "", // Provide an API Key and it will load a Google Map correctly (without those signs).
+  apiKey: process.env.MAP_API_KEY || "",
 })(MapComponent);

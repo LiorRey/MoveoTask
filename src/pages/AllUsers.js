@@ -80,7 +80,8 @@ const AllUsers = ({ navigation }) => {
       <div>
         <h1 style={{ display: "block", textAlign: "center" }}>All Users</h1>
       </div>
-      <br></br>
+      <br />
+      <br />
       <div
         className="tableContainer"
         style={{
