@@ -78,8 +78,9 @@ const AllUsers = ({ navigation }) => {
   return (
     <div>
       <div>
-        <h1 style={{ textAlign: "center" }}>All Users</h1>
+        <h1 style={{ display: "block", textAlign: "center" }}>All Users</h1>
       </div>
+      <br></br>
       <div
         className="tableContainer"
         style={{
